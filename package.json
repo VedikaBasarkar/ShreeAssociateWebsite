@@ -1,0 +1,34 @@
+{
+    "name": "Ortigan",
+    "private": true,
+    "scripts": {
+        "build": "gridsome build",
+        "develop": "gridsome develop",
+        "explore": "gridsome explore"
+    },
+    "dependencies": {
+        "@allanchain/gridsome-plugin-pwa": "^0.3.0",
+        "axios": "^0.19.2",
+        "epic-spinners": "^1.1.0",
+        "faunadb": "^2.14.2",
+        "gridsome": "^0.7.19",
+        "gsap": "^3.4.0",
+        "moment": "^2.27.0",
+        "pattern.css": "^1.0.0",
+        "postcss-cli": "^7.1.0",
+        "register-service-worker": "^1.7.1",
+        "vee-validate": "^3.3.9",
+        "vue-fullpage.js": "^0.1.5",
+        "vue-loader": "^15.9.3",
+        "vue-rellax": "^0.1.0",
+        "vue-scrollto": "^2.18.2",
+        "vue-style-loader": "^4.1.2",
+        "vuesax": "^4.0.1-alpha.24",
+        "vuex": "^3.5.1"
+    },
+    "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^2.3.0",
+        "gridsome-plugin-tailwindcss": "^2.2.48",
+        "tailwindcss": "^1.5.1"
+    }
+}
