@@ -6,10 +6,10 @@ const postcssPlugins = [
     // if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
 module.exports = {
-    siteName: 'Nomads',
-    siteDescription: "Co Working Spaces",
+    siteName: 'ShreeAssociateSolar',
+    siteDescription: "Solar products and services",
     siteUrl: '',
-    titleTemplate: `Nomads`,
+    titleTemplate: `ShreeAssociateSolar`,
     icon: 'src/favicon.png',
     plugins: [{
         use: '@allanchain/gridsome-plugin-pwa',

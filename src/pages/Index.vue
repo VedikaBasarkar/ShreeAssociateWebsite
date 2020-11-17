@@ -1,7 +1,7 @@
 <template>
   <div id="scroll-container">
       <Navbar/>
-      <section class="section" id="home">
+      <!-- <section class="section" id="home">
         <Landing/>
       </section>
       <section class="section" id="mainServices">
@@ -15,7 +15,7 @@
       </section>
       <section class="section" id="facilities">
         <Facilities/>
-      </section>
+      </section> -->
       <Footer/>
   </div>
 </template>

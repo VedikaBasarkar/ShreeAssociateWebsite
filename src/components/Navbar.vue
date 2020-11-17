@@ -1,32 +1,23 @@
 <template>
     <div style="">
         <transition name="fade">
-        <nav class="fixed top-0 w-full shadow-md mb-6 z-10" id="mainNav" style="transition-duration: 0.5s;z-index:9999999;">
+        <nav class="fixed top-0 w-full mb-6 z-10" id="mainNav" style="transition-duration: 0.5s;z-index:9999999;">
             <div class="navBg h-16"></div>
             <div class="bg-transparent top-0 absolute w-full z-40">
                 <div class="flex flex-row justify-between h-16 px-4 py-5">
-                    <div class="w-full flex flex-row justify-end items-center">
-                        <div class="hidden md:block ml-4">
-                            <div class="flex items-center font-light">
-                                <a href="#" class="hover:border-2 hover:border-gray-600"  v-scroll-to="'#home'"><p class=" mr-4"> Home</p></a>
-                                <a href="#" v-scroll-to="'#aboutus'"><p class=" mr-4"> Properties</p></a>
-                                <a href="#" v-scroll-to="'#courses'"><p class=" mr-4"> Events</p></a>
-                                <a href="#" v-scroll-to="'#enroll'"><p class=" mr-4"> Locations</p></a>
-                            </div>
-                        </div>
-                    </div>
                     <div class="w-96 mx-4 flex justify-center">
-                        <div class="text-center" v-scroll-to="'#home'">
-                            <g-image alt="text" src="https://cheeseandchillifestival.com/wp-content/uploads/2019/01/sample-logo.jpg" :class='scrollPx > 150 ? "h-20 bg-white p-2 -mt-2" : "h-32 -mt-4 bg-white p-2" ' style="transition-duration: 0.5s;"></g-image>
-                        </div>
+                        <g-link class="text-center" to="/">
+                            <g-image alt="Shree Associates" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605591447/ShreeAssociatesSolar/topnav-logo.svg" :class='scrollPx > 150 ? "h-20 bg-white p-2 -mt-2" : "h-32 -mt-4 bg-white p-2" ' style="transition-duration: 0.5s;"></g-image>
+                        </g-link>
                     </div>
-                    <div class="w-full flex flex-row items-center">
+                    <div class="w-full flex flex-row justify-end items-center my-6 mr-10">
                         <div class="hidden md:block ml-4">
                             <div class="flex items-center font-light">
-                                <a href="#" v-scroll-to="'#aboutus'"><p class=" mr-4"> About</p></a>
-                                <a href="#" v-scroll-to="'#'"><p class=" mr-4"> Contact</p></a>
-                                <a href="#" v-scroll-to="'#'"><p class=" mr-4"> Login</p></a>
-                                <a href="#" v-scroll-to="'#'"><p class=" mr-4"> Register</p></a>
+                                <g-link to="/" class="hover:border-2 hover:text-orange-500"><p class="m-8"> Home</p></g-link>
+                                <g-link to="/about"><p class="m-8 hover:text-orange-500"> About Us</p></g-link>
+                                <g-link to="/products"><p class="m-8 hover:text-orange-500"> Products</p></g-link>
+                                <g-link to="/services"><p class="m-8 hover:text-orange-500"> Services</p></g-link>
+                                <g-link to="/contact"><p class="m-8 hover:text-orange-500"> Contact</p></g-link>
                             </div>
                         </div>
                     </div>
@@ -48,12 +39,11 @@
                         name="fade"
                         >
                         <div class="flex flex-col justify-center" v-show="showItems" @click="closeNav()">
-                            <a href="#" v-scroll-to="'#home'" class="px-2 py-1 text-darkPrimary font-semibold text-center  rounded navItem">Home</a>
-                            <a href="#" v-scroll-to="'#'" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Properties</a>
-                            <a href="#" v-scroll-to="'#'" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Events</a>
-                            <a href="#" v-scroll-to="'#'" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Services</a>
-                            <a href="#" v-scroll-to="'#'" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">About</a>
-                            <a href="#" v-scroll-to="'#'" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Contact</a>
+                            <g-link to="" class="px-2 py-1 text-darkPrimary font-semibold text-center  rounded navItem">Home</g-link>
+                            <g-link to="" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">About Us</g-link>
+                            <g-link to="" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Products</g-link>
+                            <g-link to="" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Services</g-link>
+                            <g-link to="" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Contact</g-link>
                         </div>
                     </transition>
                 </div>

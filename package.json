@@ -1,5 +1,5 @@
 {
-    "name": "Ortigan",
+    "name": "ShreeAssociateSolar",
     "private": true,
     "scripts": {
         "build": "gridsome build",
