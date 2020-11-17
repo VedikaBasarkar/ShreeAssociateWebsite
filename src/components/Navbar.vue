@@ -3,26 +3,24 @@
         <transition name="fade">
         <nav class="fixed top-0 w-full mb-6 z-10" id="mainNav" style="transition-duration: 0.5s;z-index:9999999;">
             <div class="navBg h-16"></div>
-            <div class="bg-transparent top-0 absolute w-full z-40">
-                <div class="flex flex-row justify-between h-16 px-4 py-5">
-                    <div class="w-96 mx-4 flex justify-center">
-                        <g-link class="text-center" to="/">
-                            <g-image alt="Shree Associates" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605591447/ShreeAssociatesSolar/topnav-logo.svg" :class='scrollPx > 150 ? "h-20 bg-white p-2 -mt-2" : "h-32 -mt-4 bg-white p-2" ' style="transition-duration: 0.5s;"></g-image>
-                        </g-link>
-                    </div>
-                    <div class="w-full flex flex-row justify-end items-center my-6 mr-10">
+            <div class="bg-white top-0 absolute w-full z-40">
+                <div class="flex flex-row justify-between h-16 px-4 md:my-6">
+                    <g-link to="/" class="md:ml-10">
+                        <g-image alt="Shree Associates" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605591447/ShreeAssociatesSolar/topnav-logo.svg" :class='scrollPx > 150 ? "h-16 bg-white p-2 -mt-10 ml-10" : "h-24 px-2 -mt-4" ' style="transition-duration: 0.5s;"></g-image>
+                    </g-link>
+                    <div class="w-full flex flex-row justify-end items-center mr-10">
                         <div class="hidden md:block ml-4">
                             <div class="flex items-center font-light">
-                                <g-link to="/" class="hover:border-2 hover:text-orange-500"><p class="m-8"> Home</p></g-link>
-                                <g-link to="/about"><p class="m-8 hover:text-orange-500"> About Us</p></g-link>
-                                <g-link to="/products"><p class="m-8 hover:text-orange-500"> Products</p></g-link>
-                                <g-link to="/services"><p class="m-8 hover:text-orange-500"> Services</p></g-link>
-                                <g-link to="/contact"><p class="m-8 hover:text-orange-500"> Contact</p></g-link>
+                                <router-link to="/" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Home</p></router-link>
+                                <router-link to="/about" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> About Us</p></router-link>
+                                <router-link to="/products" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Products</p></router-link>
+                                <router-link to="/services" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Services</p></router-link>
+                                <router-link to="/contact" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Contact</p></router-link>
                             </div>
                         </div>
                     </div>
                     <!-- Toggler -->
-                    <div class="md:hidden">
+                    <div class="md:hidden mt-4">
                         <button  type="button" name="nav-button" class="block text-gray-500 hover: focus: focus:outline-none">
                         <svg @click="openNav()" class="h-6 w-6 fill-current" viewBox="0 0 24 24" v-if="!isOpen">
                             <path fill="#1f1d1c" fill-rule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"/>
@@ -39,11 +37,11 @@
                         name="fade"
                         >
                         <div class="flex flex-col justify-center" v-show="showItems" @click="closeNav()">
-                            <g-link to="" class="px-2 py-1 text-darkPrimary font-semibold text-center  rounded navItem">Home</g-link>
-                            <g-link to="" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">About Us</g-link>
-                            <g-link to="" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Products</g-link>
-                            <g-link to="" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Services</g-link>
-                            <g-link to="" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold  rounded navItem">Contact</g-link>
+                            <router-link to="/" exact-active-class="text-orange-400" class="px-2 py-1 text-darkPrimary font-semibold text-center  rounded navItem">Home</router-link>
+                            <router-link to="/about" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">About Us</router-link>
+                            <router-link to="/products" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Products</router-link>
+                            <router-link to="/services" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Services</router-link>
+                            <router-link to="/contact" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Contact</router-link>
                         </div>
                     </transition>
                 </div>

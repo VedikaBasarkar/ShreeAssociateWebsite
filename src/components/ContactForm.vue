@@ -1,6 +1,5 @@
 <template>
   <div>
-      <!-- <Navbar /> -->
        <ValidationObserver v-slot="{ invalid }" ref="form">
             <form class="overflow-y-hidden" @submit.prevent="submitContact">
                 <div class="flex flex-wrap">
@@ -78,7 +77,6 @@
                 </div>
             </form>
         </ValidationObserver>
-      <!-- <Footer /> -->
   </div>
 </template>
 <script>
@@ -135,10 +133,6 @@ export default {
 
         }
     },
-    components:{
-    Navbar,
-    Footer,
-  },
 }
 </script>
 
