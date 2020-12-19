@@ -1,7 +1,7 @@
 <template>
     <div style="">
         <transition name="fade">
-        <nav class="fixed top-0 w-full mb-6 z-10" id="mainNav" style="transition-duration: 0.5s;z-index:9999999;">
+        <nav class="top-0 w-full mb-6 z-10" id="mainNav" style="transition-duration: 0.5s;z-index:9999999;">
             <div class="navBg h-16"></div>
             <div class="bg-white top-0 absolute w-full z-40">
                 <div class="flex flex-row justify-between h-16 px-4 md:my-6">

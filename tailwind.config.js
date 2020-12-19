@@ -44,7 +44,7 @@ module.exports = {
         },
         extend: {
             colors: {
-                primary: '#ffc800',
+                primary: '#FFC601',
             },
             fontFamily: {
                 bebas: ['Bebas Neue']
