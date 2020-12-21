@@ -1,15 +1,34 @@
 <template>
     <div>
         <Navbar />
-        <h2></h2>
-        <p>Started by two childhood friends, who are Mechanical Engineers ,with the clear intentions to contribute towards nature with working and increasing sustainable solutions. 
-          We at Shree Associates aim to reduce and cut the dependence of humans on conventional energy resources for power and energy generation. The use of renewable energy resources 
-          such as solar energy, which is available in plenty in nature can become the best substitute for power generation. We focus on all the sustainable solutions we can provide by 
-          all possible means. Be it solar, wind or any other renewable energy source, Shree Associates is the one stop solution for all the problems related to renewable energy sources. 
-          After acquiring considerable knowledge about the solar industry and business, the firm came into existence in January 2019.  The company strives to work and implement the solar 
-          solutions in the areas namely, Industrial, Commercial, Residential, Farms, Hospitals.Thereafter, we make sure that the services we provide should be transparent and should deliver 
-          customer satisfaction.</p>
-        <Footer />
+        <div class="mx-5 mt-10 md:mt-20 md:mx-56">
+          <h1 class="text-black text-center text-4xl font-bold">About <span class="text-primary">Us</span></h1>
+          <br>
+          <p class="text-center">Started by two childhood friends, who are Mechanical Engineers, with the clear intentions to contribute towards nature with working and increasing sustainable solutions. 
+            We at Shree Associates aim to reduce and cut the dependence of humans on conventional energy resources for power and energy generation. The use of renewable energy resources 
+            such as solar energy, which is available in plenty in nature can become the best substitute for power generation. We focus on all the sustainable solutions we can provide by 
+            all possible means. Be it solar, wind or any other renewable energy source, Shree Associates is the one stop solution for all the problems related to renewable energy sources. 
+            After acquiring considerable knowledge about the solar industry and business, the firm came into existence in January 2019.  The company strives to work and implement the solar 
+            solutions in the areas namely, Industrial, Commercial, Residential, Farms, Hospitals.Thereafter, we make sure that the services we provide should be transparent and should deliver 
+            customer satisfaction.</p>
+            <div class="md:flex justify-center my-20">
+              <div class="my-12">
+                <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608536416/ShreeAssociatesSolar/About/soham_kulkarni.jpg" />
+                <div class="mx-6 md:mx-8">
+                  <div class="md:text-right"><h1 class="text-primary text-2xl font-bold">Soham <span class="text-black">Kulkarni</span></h1></div>
+                  <div class="md:text-right text-gray-600">Managing Partner</div>
+                </div>
+              </div>
+              <div>
+                <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608536416/ShreeAssociatesSolar/About/raj_kapadia.jpg" />
+                <div class="mx-6">
+                  <div><h1 class="text-primary text-2xl font-bold">Raj <span class="text-black">Kapadia</span></h1></div>
+                  <div class="text-gray-600">Managing Partner</div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- <Footer /> -->
     </div>
 </template>
 
