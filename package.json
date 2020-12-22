@@ -18,6 +18,7 @@
         "postcss-cli": "^7.1.0",
         "register-service-worker": "^1.7.1",
         "vee-validate": "^3.3.9",
+        "vue-cool-lightbox": "^2.7.0",
         "vue-fullpage.js": "^0.1.5",
         "vue-loader": "^15.9.3",
         "vue-rellax": "^0.1.0",

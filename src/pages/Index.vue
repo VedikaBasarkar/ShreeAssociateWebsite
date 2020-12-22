@@ -22,20 +22,12 @@
 <script>
 import Navbar from '~/components/Navbar.vue'
 import Landing from '~/layouts/Landing'
-import MainServices from '~/layouts/MainServices'
-import SubServices from '~/layouts/SubServices'
-import Facilities from '~/layouts/Facilities'
-import Pricing from '~/layouts/Pricing'
 import Footer from '~/components/Footer.vue'
 
 export default {
   components:{
     Navbar,
     Landing,
-    MainServices,
-    SubServices,
-    Facilities,
-    Pricing,
     Footer,
   },
 }

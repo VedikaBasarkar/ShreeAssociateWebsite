@@ -29,7 +29,8 @@
 
           </div>
         </div>
-        <!-- <Footer /> -->
+        <ContactForm />
+        <Footer />
     </div>
 </template>
 

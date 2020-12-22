@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="mt-20 mb-10">
         <h1 class="text-black text-center text-3xl font-bold mb-5">Drop <span class="text-primary">Enquiry</span></h1>
         <form class="overflow-y-hidden">
             <div class="flex flex-wrap md:mx-56 md:px-32">

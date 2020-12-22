@@ -15,6 +15,7 @@
                                 <router-link to="/about" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> About Us</p></router-link>
                                 <router-link to="/products" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Products</p></router-link>
                                 <router-link to="/services" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Services</p></router-link>
+                                <router-link to="/gallery" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Project Gallery</p></router-link>
                                 <router-link to="/contact" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Contact</p></router-link>
                             </div>
                         </div>
@@ -41,6 +42,7 @@
                             <router-link to="/about" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">About Us</router-link>
                             <router-link to="/products" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Products</router-link>
                             <router-link to="/services" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Services</router-link>
+                            <router-link to="/Gallery" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Project Gallery</router-link>
                             <router-link to="/contact" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Contact</router-link>
                         </div>
                     </transition>
