@@ -35,8 +35,8 @@
               <hr>
             </div>
         </div>
-        <!-- <ContactForm />
-        <Footer /> -->
+        <ContactForm />
+        <Footer />
     </div>
 </template>
 

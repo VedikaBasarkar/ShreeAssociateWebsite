@@ -40,7 +40,7 @@ export default function(Vue, { router, head, isClient, appOptions }) {
     })
     head.link.push()
 
-    let copyRightNotice = `\u00a9 wwww.nomads.com, ${ new Date().getFullYear() }. All rights reserved`;
+    let copyRightNotice = `\u00a9 wwww.shreeassociatesolar.com, ${ new Date().getFullYear() }. All rights reserved`;
 
     head.meta.push({
         key: 'keywords',
