@@ -5,5 +5,5 @@ export default axios.create({
         'Content-Type': 'application/json',
         'X-Requested-With': 'XMLHttpRequest'
     },
-    baseURL: ''
+    baseURL: 'http://103.59.104.41:8000/api'
 })

@@ -6,8 +6,10 @@ require('~/main.css')
 import PatterCSS from 'pattern.css/dist/pattern.css'
 import VueRellax from 'vue-rellax'
 import VueScrollTo from 'vue-scrollto'
-import CoolLightBox from 'vue-cool-lightbox'
-import 'vue-cool-lightbox/dist/vue-cool-lightbox.min.css'
+
+
+import { HalfCircleSpinner } from 'epic-spinners';
+
 
 import { extend } from "vee-validate";
 import * as rules from "vee-validate/dist/rules";
@@ -105,10 +107,7 @@ export default function(Vue, { router, head, isClient, appOptions }) {
         name: "twitter:image",
         content: ''
     }, );
-    // 
-    // if (isClient && process.env.NODE_ENV === 'production') {
-    //     require('./registerServiceWorker')
-    // }
+
 
     Vue.use(VueScrollTo, {
         container: "body",
@@ -123,9 +122,9 @@ export default function(Vue, { router, head, isClient, appOptions }) {
         x: false,
         y: true
     })
+    Vue.component('half-circle-spinner', HalfCircleSpinner)
     Vue.use(Vuesax)
     Vue.use(PatterCSS)
     Vue.use(VueRellax)
-    Vue.use(CoolLightBox)
 
 }
