@@ -1,5 +1,5 @@
 <template>
-    <div class="footer-bg text-gray-200 p-6">
+    <div class="footer-bg text-gray-200 py-6">
         <footer>
             <div class="flex flex-col md:flex-row md:justify-between items-center pb-0 footer-bg md:px-16">
                 <g-image class="w-32 md:w-40 py-2 md:py-0" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/footer-logo.svg"></g-image>
