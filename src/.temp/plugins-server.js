@@ -1,4 +1,4 @@
-import plugin_allanchain_gridsome_plugin_pwa_5 from "C:\\projects\\external\\Vedika-ShreeAssociateWebsite\\node_modules\\@allanchain\\gridsome-plugin-pwa\\gridsome.client.js"
+import plugin_allanchain_gridsome_plugin_pwa_5 from "/Users/vedikabasarkar/Documents/ShreeAssociateWebsite/node_modules/@allanchain/gridsome-plugin-pwa/gridsome.client.js"
 
 export default [
   {

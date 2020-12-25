@@ -9,6 +9,7 @@ import VueScrollTo from 'vue-scrollto'
 
 
 import { HalfCircleSpinner } from 'epic-spinners';
+import { ValidationProvider, ValidationObserver } from "vee-validate";
 
 
 import { extend } from "vee-validate";
@@ -123,6 +124,8 @@ export default function(Vue, { router, head, isClient, appOptions }) {
         y: true
     })
     Vue.component('half-circle-spinner', HalfCircleSpinner)
+    Vue.component('ValidationProvider', ValidationProvider)
+    Vue.component('ValidationObserver', ValidationObserver)
     Vue.use(Vuesax)
     Vue.use(PatterCSS)
     Vue.use(VueRellax)
