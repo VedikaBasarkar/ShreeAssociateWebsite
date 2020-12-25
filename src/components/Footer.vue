@@ -5,10 +5,10 @@
                 <g-image class="w-32 md:w-40 py-2 md:py-0" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/footer-logo.svg"></g-image>
                 <p class="text-white text-xs text-center py-2 md:py-0">&copy; 2020 Shree Associates, All rights reserved<br/>Designed and Developed by Ved Artscape</p>
                 <div class="flex py-2 md:py-0">
-                    <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/twitter.svg"></g-image>
-                    <g-image class="pl-4" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/youtube.svg"></g-image>
-                    <g-image class="pl-4" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/facebook.svg"></g-image>
-                    <g-image class="pl-4" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/instagram.svg"></g-image>
+                    <!-- <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/twitter.svg"></g-image> -->
+                    <a href="https://in.linkedin.com/company/shree-associates1101"><g-image class="pl-4" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/youtube.svg"></g-image></a>
+                    <!-- <a href="#"><g-image class="pl-4" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/facebook.svg"></g-image></a> -->
+                    <a href="https://www.instagram.com/solarized_2019/"><g-image class="pl-4" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590998/ShreeAssociatesSolar/instagram.svg"></g-image></a>
                 </div>
             </div>
         </footer>
