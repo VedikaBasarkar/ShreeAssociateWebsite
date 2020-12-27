@@ -20,7 +20,7 @@
 
 <style scoped>
 .footer-bg{
-    background-image: url('https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590338/ShreeAssociatesSolar/footer-background.svg');
+    /* background-image: url('https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590338/ShreeAssociatesSolar/footer-background.svg'); */
     background-color: #FFC600;
     bottom: 0px;
     width: 100vw;

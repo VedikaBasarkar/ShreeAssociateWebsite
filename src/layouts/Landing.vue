@@ -1,6 +1,6 @@
 <template>
   <div class="lg:h-screen flex flex-col md:flex-row">
-    <div class="w-full md:w-2/5 py-20 pl-5 md:pt-32 md:pl-32 ">
+    <div class="w-full md:w-2/5 py-20 px-5 pt-10 md:pt-32 md:pl-32">
       <div class="text-3xl md:text-5xl font-bold text-primary font-poppins">Earn with Sun</div>
       <div class="text-2xl font-light font-poppins">Ideal investment for idle rooftop</div>
       <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608801874/ShreeAssociatesSolar/cover.svg" />
@@ -78,7 +78,7 @@
                 </button>
               </div>
             </div>
-              <div class="text-center text-white font-medium text-xl py-8 font-poppins">Calculated Kilowatt count</div>
+              <div class="text-center text-white font-medium text-xl py-8 font-poppins">You will need Project of <span>{{ calculated }}</span> Kilowatt</div>
           </form>
         </ValidationObserver>
         <div></div>
@@ -95,7 +95,8 @@ export default {
             address: '',
             email:'',
             contact: '',
-            units: ''
+            units: '',
+            calculated: ''
         }
     },
     methods:{
@@ -105,20 +106,21 @@ export default {
                 email: this.email,
                 content: this.contact,
                 address: this.address,
-                units: this.units
+                units: this.units,
             }
              axios.post('/send', data)
              .then(res => {
                  this.loading = false
-                 this.$vs.notification({
-                    square: true,
-                    duration: 6000,
-                    color: 'success',
-                    position: 'bottom-center',
-                    title: '🌟 Enquiry Sent Successfully',
-                    text: `👏 Thank you for contacting! Our representative will call you on the provided number.`
-                })
-                this.clearFields()
+                //  calculated = units/4;
+                //  this.$vs.notification({
+                //     square: true,
+                //     duration: 6000,
+                //     color: 'success',
+                //     position: 'bottom-center',
+                //     title: '🌟 Enquiry Sent Successfully',
+                //     text: `👏 Thank you for contacting! Our representative will call you on the provided number.`
+                // })
+              this.result();
              })
              .catch(err => {
                  this.loading = false
@@ -137,7 +139,10 @@ export default {
             this.$nextTick(() => {
             this.$refs.form.reset();
             });
-        }
+        },
+         result() {
+           this.calculated = parseInt(this.units) / 4
+        },
     }
 }
 </script>

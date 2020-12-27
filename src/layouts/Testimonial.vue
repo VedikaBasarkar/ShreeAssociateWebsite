@@ -1,6 +1,6 @@
 <template>
   <div class="my-10 md:my-48 flex flex-col mx-4 md:mx-20">
-    <h1 class="text-black text-center text-4xl font-bold mt-10 md:mt-0 font-poppins">It's <span class="text-primary">Advantage</span></h1>
+    <h1 class="text-primary text-center text-4xl font-bold mt-10 md:mt-0 font-poppins">Testimonial</h1>
     <div class="flex flex-wrap">
       <div v-for="(a, index) in advantage" :key="index" class="w-full md:w-1/4 p-4 my-5">
         <div class="flex flex-col md:p-5 justify-center">

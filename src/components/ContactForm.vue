@@ -1,5 +1,7 @@
 <template>
-    <div class="mt-20 py-10 bg-yellow-100">
+<div style="position:relative" class="w-full">
+    <!-- <g-image class="bg-footer-img" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590338/ShreeAssociatesSolar/footer-background.svg" /> -->
+    <div class="mt-20 py-10 bg-yellow-100 bg-footer-img">
         <h1 class="text-black text-center text-3xl font-bold mb-5 font-poppins">Drop <span class="text-primary">Enquiry</span></h1>
        <ValidationObserver v-slot="{ invalid }" ref="form" @submit.prevent="submit">
         <form class="overflow-y-hidden" autocomplete="off">
@@ -74,11 +76,18 @@
             </div>
         </form>
        </ValidationObserver>
+       <!-- <Footer /> -->
     </div>
+</div>
 </template>
 <script>
 import axios from '../axios'
+import Footer from './Footer'
+
 export default {
+    components:{
+        Footer
+    },
     data(){
         return {
             loading: false,
@@ -144,6 +153,13 @@ export default {
     border-radius: 30px;
     padding: 10px;
     margin: 10px 0px;
+}
+.bg-footer-img{
+    background-image: url('https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590338/ShreeAssociatesSolar/footer-background.svg');
+    /* background-size:100vw 500px; */
+    background-repeat: no-repeat ;
+    margin: 0px; 
+    position: relative;
 }
 input[type=number]::-webkit-inner-spin-button, 
 input[type=number]::-webkit-outer-spin-button { 
