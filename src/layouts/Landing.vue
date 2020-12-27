@@ -1,14 +1,14 @@
 <template>
   <div class="lg:h-screen flex flex-col md:flex-row">
-    <div class="w-full md:w-2/5 py-20 px-5 pt-10 md:pt-32 md:pl-32">
+    <div class="w-full md:w-2/5 py-20 px-5 pt-10 md:pt-40 md:pl-32">
       <div class="text-3xl md:text-5xl font-bold text-primary font-poppins">Earn with Sun</div>
       <div class="text-2xl font-light font-poppins">Ideal investment for idle rooftop</div>
       <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608801874/ShreeAssociatesSolar/cover.svg" />
     </div>
-    <div class="w-full md:w-3/5 md:p-20">
+    <div class="w-full md:w-3/5 md:px-32 md:py-24">
       <div class="shadow-md bg-primary p-5 rounded">
         <div class="text-white text-3xl font-bold text-center font-poppins">Let's Calculate</div>
-        <div class="text-white text-center text-poppins px-8 font-poppins">Tell us how many average units of electricity you consume per month</div>
+        <div class="text-white text-center text-poppins px-8 font-poppins">Tell us how many average units of electricity<br>you consume per month</div>
         <ValidationObserver v-slot="{ invalid }" ref="form" @submit.prevent="submit">
           <form class="overflow-y-hidden" autocomplete="off">
             <div class="md:px-20 mt-5">
@@ -19,6 +19,7 @@
                   name="email"
                   placeholder="Enter your email"
                   v-model="email"
+                  autocomplete="off"
                   />
                 <span class="text-red-700 font-base text-xs mt-4">{{ errors[0] }}</span>
                 </ValidationProvider>
@@ -31,6 +32,7 @@
                   name="contact"
                   placeholder="Enter your contact"
                   v-model="contact"
+                  autocomplete="off"
                   />
                 <span class="text-red-700 font-base text-xs mt-4">{{ errors[0] }}</span>
                 </ValidationProvider>
@@ -43,6 +45,7 @@
                   name="address"
                   placeholder="Enter postal address"
                   v-model="address"
+                  autocomplete="off"
                   />
                 <span class="text-red-700 font-base text-xs mt-4">{{ errors[0] }}</span>
                 </ValidationProvider>
@@ -56,7 +59,7 @@
                   name="units"
                   placeholder="Enter Units Consumed"
                   v-model="units"
-                  autocomplete="disable"
+                  autocomplete="off"
                   />
                 <span class="text-red-700 font-base text-xs mt-4">{{ errors[0] }}</span>
                 </ValidationProvider>
@@ -68,7 +71,7 @@
                   :class="invalid ? 'flex justify-center w-56 text-md px-3 py-2 bg-orange-100 text-orange-500 focus:outline-none focus:shadow-outline cursor-not-allowed' : 'flex justify-center text-md w-56 px-4 py-2 bg-orange-500 text-white focus:outline-none focus:shadow-outline' "
                   type="submit"
                 >
-                <p>Submit</p>
+                <p>Calculate</p>
                 <p v-if="loading" class="ml-2">
                     <half-circle-spinner
                         :animation-duration="1000"
@@ -96,7 +99,7 @@ export default {
             email:'',
             contact: '',
             units: '',
-            calculated: ''
+            calculated: '0'
         }
     },
     methods:{

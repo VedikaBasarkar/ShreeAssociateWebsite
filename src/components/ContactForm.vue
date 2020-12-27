@@ -4,7 +4,7 @@
     <div class="mt-20 py-10 bg-yellow-100 bg-footer-img">
         <h1 class="text-black text-center text-3xl font-bold mb-5 font-poppins">Drop <span class="text-primary">Enquiry</span></h1>
        <ValidationObserver v-slot="{ invalid }" ref="form" @submit.prevent="submit">
-        <form class="overflow-y-hidden" autocomplete="off">
+        <form class="overflow-y-hidden">
             <div class="flex flex-wrap mx-5 md:mx-56">
                 <div class="w-full md:w-1/2">
                     <div class="px-5 mt-2">
@@ -155,7 +155,7 @@ export default {
     margin: 10px 0px;
 }
 .bg-footer-img{
-    background-image: url('https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590338/ShreeAssociatesSolar/footer-background.svg');
+    /* background-image: url('https://res.cloudinary.com/db3h7h0pa/image/upload/v1605590338/ShreeAssociatesSolar/footer-background.svg'); */
     /* background-size:100vw 500px; */
     background-repeat: no-repeat ;
     margin: 0px; 
