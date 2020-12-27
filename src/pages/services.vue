@@ -2,14 +2,14 @@
     <div>
         <Navbar />
         <div class="mt-20 md:mx-48">
-            <h1 class="text-black text-center text-4xl font-bold mb-10">Our <span class="text-primary">Services</span></h1>
+            <h1 class="text-black text-center text-4xl font-bold mb-10 font-poppins">Our <span class="text-primary">Services</span></h1>
             <div class="flex flex-wrap ">
                 <div v-for="(f, index) in Services" :key="index" class="w-full md:w-1/2 flex flex-col justify-center items-center text-center my-4 md:px-1">
                     <div class="p-5 rounded-md">
                     <g-image :src="f.icon" :alt="f.text" class="h-24" />
                     </div>
-                    <div class="text-2xl font-bold">{{f.name}}</div>
-                    <p class="mt-4 text-xs md:text-sm text-gray-900 text-center w-64">{{ f.text }}</p>
+                    <div class="text-2xl font-medium font-poppins">{{f.name}}</div>
+                    <p class="mt-4 text-xs md:text-sm text-gray-900 text-center w-64 font-poppins">{{ f.text }}</p>
                 </div>
             </div>
         </div>

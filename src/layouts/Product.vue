@@ -1,20 +1,20 @@
 <template>
   <div class="lg:h-screen flex flex-col md:flex:row">
     <div class="mx-4 md:mx-20">
-      <h1 class="text-black text-center text-4xl font-bold mt-10 md:mt-0">Our <span class="text-primary">Products</span></h1>
+      <h1 class="text-black text-center text-4xl font-bold mt-10 md:mt-0 font-poppins">Our <span class="text-primary">Products</span></h1>
       <div class="flex flex-wrap">
         <div v-for="(p, index) in products" :key="index" class="w-full md:w-1/2 md:p-4 my-5">
           <div class="flex flex-col md:flex-row md:p-5">
             <g-image :src="p.icon" class="w-full md:w-1/2 h-48" />
             <div class="w-full md:w-1/2 md:px-8">
-              <div class="font-bold text-2xl pb-3 text-center md:text-left">{{p.name}}</div>
-              <div class="text-center md:text-left">{{p.text}}</div>
+              <div class="font-medium text-2xl pb-1 text-center md:text-left font-poppins">{{p.name}}</div>
+              <div class="text-center text-sm md:text-left font-poppins">{{p.text}}</div>
             </div>
           </div>
         </div>
       </div>
       <div class="flex justify-center">
-        <button class="submit-btn text-white bg-orange-500 focus:outline-none focus:shadow-outline"><router-link to="/products">See all Products </router-link></button>
+        <button class="submit-btn text-white bg-orange-500 focus:outline-none focus:shadow-outline font-poppins"><router-link to="/products">See all Products </router-link></button>
       </div>
     </div>
   </div>

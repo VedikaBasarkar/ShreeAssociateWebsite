@@ -47,7 +47,7 @@ module.exports = {
                 primary: '#FFC601',
             },
             fontFamily: {
-                bebas: ['Bebas Neue']
+                poppins: ['Poppins', 'sans-serif;']
             },
             spacing: {
                 '78': '20rem',

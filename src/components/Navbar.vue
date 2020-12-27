@@ -11,12 +11,12 @@
                     <div class="w-full flex flex-row justify-end items-center mr-10">
                         <div class="hidden md:block ml-4">
                             <div class="flex items-center font-light">
-                                <router-link to="/" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Home</p></router-link>
-                                <router-link to="/about" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> About Us</p></router-link>
-                                <router-link to="/products" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Products</p></router-link>
-                                <router-link to="/services" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Services</p></router-link>
-                                <router-link to="/gallery" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Project Gallery</p></router-link>
-                                <router-link to="/contact" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal"> Contact</p></router-link>
+                                <router-link to="/" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal font-poppins"> Home</p></router-link>
+                                <router-link to="/about" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal font-poppins"> About Us</p></router-link>
+                                <router-link to="/products" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal font-poppins"> Products</p></router-link>
+                                <router-link to="/services" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal font-poppins"> Services</p></router-link>
+                                <router-link to="/gallery" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal font-poppins"> Project Gallery</p></router-link>
+                                <router-link to="/contact" exact-active-class="text-orange-400"><p class="m-8 hover:text-orange-500 font-normal font-poppins"> Contact</p></router-link>
                             </div>
                         </div>
                     </div>
@@ -38,12 +38,12 @@
                         name="fade"
                         >
                         <div class="flex flex-col justify-center" v-show="showItems" @click="closeNav()">
-                            <router-link to="/" exact-active-class="text-orange-400" class="px-2 py-1 text-darkPrimary font-semibold text-center  rounded navItem">Home</router-link>
-                            <router-link to="/about" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">About Us</router-link>
-                            <router-link to="/products" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Products</router-link>
-                            <router-link to="/services" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Services</router-link>
-                            <router-link to="/Gallery" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Project Gallery</router-link>
-                            <router-link to="/contact" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem">Contact</router-link>
+                            <router-link to="/" exact-active-class="text-orange-400" class="px-2 py-1 text-darkPrimary font-semibold text-center  rounded navItem font-poppins">Home</router-link>
+                            <router-link to="/about" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem font-poppins">About Us</router-link>
+                            <router-link to="/products" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem font-poppins">Products</router-link>
+                            <router-link to="/services" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem font-poppins">Services</router-link>
+                            <router-link to="/Gallery" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem font-poppins">Project Gallery</router-link>
+                            <router-link to="/contact" exact-active-class="text-orange-400" class="mt-1 block px-2 py-1 text-darkPrimary text-center font-semibold rounded navItem font-poppins">Contact</router-link>
                         </div>
                     </transition>
                 </div>

@@ -2,13 +2,13 @@
     <div>
         <Navbar />
         <div class="mt-20 md:mx-48">
-        <h1 class="text-black text-center text-4xl font-bold">Our <span class="text-primary">Products</span></h1>
+        <h1 class="text-black text-center text-4xl font-bold font-poppins">Our <span class="text-primary">Products</span></h1>
             <div v-for="(p, index) in products" :key="index" class="flex flex-col product-reg">
                 <div v-if="(p.id % 2) == 1" class="flex py-16 justify-between">
                     <div class="w-3/5 pr-10">
                       <div class="shadow-lg p-10">
-                          <h1 class="text-primary text-2xl font-bold">{{p.name1}} <span class="text-black">{{p.name2}}</span></h1>
-                          <p class="text-md">{{p.text}}</p>
+                          <h1 class="text-primary text-2xl font-bold font-poppins">{{p.name1}} <span class="text-black">{{p.name2}}</span></h1>
+                          <p class="text-md font-poppins">{{p.text}}</p>
                       </div>
                     </div>
                     <g-image :src="p.icon" :alt="p.name1 + p.name2" class="h-56" />
@@ -17,8 +17,8 @@
                     <g-image :src="p.icon" :alt="p.name1 + p.name2" class="h-56" />
                     <div class="w-3/5 pl-10">
                       <div class="shadow-lg p-10">
-                        <h1 class="text-primary text-right text-2xl font-bold">{{p.name1}} <span class="text-black">{{p.name2}}</span></h1>
-                        <p class="text-right text-md">{{p.text}}</p>
+                        <h1 class="text-primary text-right text-2xl font-bold font-poppins">{{p.name1}} <span class="text-black">{{p.name2}}</span></h1>
+                        <p class="text-right text-md font-poppins">{{p.text}}</p>
                       </div>
                     </div>
                 </div>
@@ -26,8 +26,8 @@
 
             <div v-for="(p, index) in products" :key="index" class="p-5 product-mob flex flex-col object-center">
               <div class="shadow-lg p-5">
-                  <h1 class="text-primary text-2xl font-bold text-center">{{p.name1}} <span class="text-black">{{p.name2}}</span></h1>
-                  <p class="text-sm text-center">{{p.text}}</p>
+                  <h1 class="text-primary text-2xl font-bold text-center font-poppins">{{p.name1}} <span class="text-black">{{p.name2}}</span></h1>
+                  <p class="text-sm text-center font-poppins">{{p.text}}</p>
               </div>
               <div class="flex justify-center">
                 <g-image :src="p.icon" :alt="p.name1 + p.name2" class="h-48 my-10" />

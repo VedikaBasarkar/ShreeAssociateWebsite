@@ -1,6 +1,6 @@
 <template>
     <div class="mt-20 py-10 bg-yellow-100">
-        <h1 class="text-black text-center text-3xl font-bold mb-5">Drop <span class="text-primary">Enquiry</span></h1>
+        <h1 class="text-black text-center text-3xl font-bold mb-5 font-poppins">Drop <span class="text-primary">Enquiry</span></h1>
        <ValidationObserver v-slot="{ invalid }" ref="form" @submit.prevent="submit">
         <form class="overflow-y-hidden" autocomplete="off">
             <div class="flex flex-wrap mx-5 md:mx-56">
@@ -60,7 +60,7 @@
             <div class="flex justify-center flex-row w-full px-5 py-3">
                 <button
                 :disabled="invalid"
-                class="mx-2 mt-4 mb-5 submit-btn"
+                class="mx-2 mt-4 mb-5 submit-btn font-poppins"
                 :class="invalid ? 'flex justify-center w-56 text-md px-3 py-2 bg-orange-200 text-orange-500 focus:outline-none focus:shadow-outline cursor-not-allowed' : 'flex justify-center text-md w-56 px-4 py-2 bg-orange-500 text-white focus:outline-none focus:shadow-outline' "
                 type="submit"
                 >
