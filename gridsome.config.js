@@ -9,7 +9,7 @@ const postcssPlugins = [
 
 module.exports = {
     siteName: 'ShreeAssociateSolar',
-    siteDescription: "Looking for coworking spaces in Bengaluru? 🥇 Nomad Spaces provides premium and affordable coworking offices for rent in Bangalore. Price starts @ ₹4000.",
+    siteDescription: "We provide best solar products and othere services. We do customizatin according to you need. Do contact on 8975707571 and 9420234355",
     siteUrl: 'https://shreeassociatesolar.com/',
     titleTemplate: `ShreeAssociateSolar`,
     icon: 'src/favicon.png',

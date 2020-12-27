@@ -144,7 +144,7 @@ export default {
             });
         },
          result() {
-           this.calculated = parseInt(this.units) / 4 
+           this.calculated = (parseInt(this.units) / 30) / 4; 
         },
     }
 }
