@@ -3,7 +3,8 @@ import axios from 'axios'
 export default axios.create({
     headers: {
         'Content-Type': 'application/json',
-        'X-Requested-With': 'XMLHttpRequest'
+        'X-Requested-With': 'XMLHttpRequest',
+        'apikey':'QMDHJJcFqXBSeb5zDn'
     },
-    baseURL: 'http://103.59.104.41:8000/api'
+    baseURL: 'https://formail-api.ortigan.com/api'
 })

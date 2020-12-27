@@ -4,6 +4,9 @@
       <section class="section" id="home">
         <Landing/>
       </section>
+      <section class="section" id="home">
+        <Product />
+      </section>
       <Footer/>
   </div>
 </template>

@@ -2,7 +2,7 @@ export default {
   "trailingSlash": true,
   "pathPrefix": "",
   "titleTemplate": "ShreeAssociateSolar",
-  "siteUrl": "",
+  "siteUrl": "https://shreeassociatesolar.com/",
   "version": "0.7.19",
   "catchLinks": true
 }

@@ -1,13 +1,14 @@
 <template>
   <div class="lg:h-screen flex flex-col md:flex-row">
-    <div class="w-full md:w-2/5 py-20 pl-5 md:pt-40 md:pl-32 ">
+    <div class="w-full md:w-2/5 py-20 pl-5 md:pt-32 md:pl-32 ">
       <div class="text-3xl md:text-5xl font-bold text-primary">Earn with Sun</div>
       <div class="text-3xl font-light">Ideal investment for idle rooftop</div>
+      <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608801874/ShreeAssociatesSolar/cover.svg" />
     </div>
     <div class="w-full md:w-3/5 md:p-20">
       <div class="shadow-md bg-primary p-5 rounded">
         <div class="text-white text-3xl font-bold text-center">Let's Calculate</div>
-        <div class="text-white text-center text-bebas px-10">Tell us how many average units of electricity you consume per month</div>
+        <div class="text-white text-center text-bebas px-8">Tell us how many average units of electricity you consume per month</div>
         <ValidationObserver v-slot="{ invalid }" ref="form" @submit.prevent="submit">
           <form class="overflow-y-hidden" autocomplete="off">
             <div class="md:px-20 mt-5">
@@ -77,6 +78,7 @@
                 </button>
               </div>
             </div>
+              <div class="text-center text-white font-bold text-xl py-8">Calculated Kilowatt count</div>
           </form>
         </ValidationObserver>
         <div></div>
@@ -100,12 +102,12 @@ export default {
         submit(){
             this.loading = true
             const data = {
-                address: this.address,
                 email: this.email,
                 content: this.contact,
+                address: this.address,
                 units: this.units
             }
-             axios.post('/', data)
+             axios.post('/send', data)
              .then(res => {
                  this.loading = false
                  this.$vs.notification({

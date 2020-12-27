@@ -97,7 +97,7 @@ export default {
                 contact: this.contact,
                 message: this.message
             }
-             axios.post('/', data)
+             axios.post('/send', data)
              .then(res => {
                  this.loading = false
                  this.$vs.notification({
