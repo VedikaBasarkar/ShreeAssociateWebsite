@@ -81,7 +81,7 @@
                 </button>
               </div>
             </div>
-              <div class="text-center text-white font-medium text-xl py-8 font-poppins">You will need Project of <span>{{ calculated }}</span> Kilowatt</div>
+              <div class="text-center text-white font-medium text-xl py-8 font-poppins">You will need Project of <span class="text-bold text-black">{{ calculated }}</span> Kilowatt</div>
           </form>
         </ValidationObserver>
         <div></div>
