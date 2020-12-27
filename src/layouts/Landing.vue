@@ -81,7 +81,7 @@
                 </button>
               </div>
             </div>
-              <div class="text-center text-white font-medium text-xl py-8 font-poppins">You will need Project of <span class="text-bold text-black">{{ calculated }}</span> Kilowatt</div>
+              <div class="text-center text-white font-medium text-xl py-8 font-poppins">You will need Project of <br><span class="font-bold text-white text-2xl">{{ calculated }} Kilowatt</span></div>
           </form>
         </ValidationObserver>
         <div></div>
@@ -144,7 +144,7 @@ export default {
             });
         },
          result() {
-           this.calculated = parseInt(this.units) / 4
+           this.calculated = parseInt(this.units) / 4 
         },
     }
 }
