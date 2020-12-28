@@ -26,12 +26,12 @@ export default {
         {
           id:2,
           user:'Bhushanraj Mukhate',
-          text:`"I wasn't aware of different solar products available out there in market right now. Service was excellent, very happy with them. Thanks you guys, it helped a lot."`
+          text:`"I wasn't aware of different solar products available out there in market currently.They explained everything with clarity.Service was excellent, very happy with them. Thank you"`
         },
         {
           id:3,
           user:'Nikhil Gangwal',
-          text:`"Thanks for providing the information on solar power which we found very useful. We proceed with a 15kW system where they supplied panels and installed"`
+          text:`"Thank you Shree Associates for providing me with such a quality service for the plant which you suggested. The team is very technically sound and hardworking."`
         },
       ]
     }

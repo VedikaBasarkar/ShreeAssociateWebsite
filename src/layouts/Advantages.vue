@@ -21,22 +21,22 @@ export default {
         {
           id:1,
           icon:'https://res.cloudinary.com/db3h7h0pa/image/upload/v1609028336/ShreeAssociatesSolar/ad1.svg',
-          text:'You can generate your own power at your rooftop'
+          text:'You can generate your own power of your rooftop'
         },
         {
           id:2,
           icon:'https://res.cloudinary.com/db3h7h0pa/image/upload/v1609028336/ShreeAssociatesSolar/ad2.svg',
-          text:'The payback period of the amount is mainly around 2 - 5 years'
+          text:'The ROI period of the amount is mainly around 2 - 5 years'
         },
         {
           id:3,
           icon:'https://res.cloudinary.com/db3h7h0pa/image/upload/v1609028336/ShreeAssociatesSolar/ad3.svg',
-          text:'Post payback period it is only savings per year that you get out of  power generation'
+          text:'Post ROI period it is only savings per year that you get out of  power generation'
         },
         {
           id:4,
           icon:'https://res.cloudinary.com/db3h7h0pa/image/upload/v1609028336/ShreeAssociatesSolar/ad4.svg',
-          text:'Eligibility for carbon credits'
+          text:'Post ROI power generation adds up in savings per year'
         },
       ]
     }

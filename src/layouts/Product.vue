@@ -44,7 +44,7 @@ export default {
           id:4,
           name: 'Solar Fence',
           icon:  `https://res.cloudinary.com/db3h7h0pa/image/upload/v1608574792/ShreeAssociatesSolar/Products/solar_fence.svg`,
-          text: 'The Solar Fencing System is similar to regular electric fence and works on Solar Energy with the backup facility to run uninterruptedly during the nights as well as cloudy days.'
+          text: 'The Solar Fencing System is similar to a regular electric fence and works on Solar Energy with a backup facility to run uninterruptedly during nights as well as cloudy days.'
         },
       ]
     }

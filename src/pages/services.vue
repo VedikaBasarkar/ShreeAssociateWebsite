@@ -54,7 +54,7 @@ export default {
           id:4,
           name: 'Net Metering',
           icon:  `https://res.cloudinary.com/db3h7h0pa/image/upload/v1608574792/ShreeAssociatesSolar/Services/net-meter.svg`,
-          text: 'Electricity billing mechanism which allows the customer to generate their own electricity by solar rooftop.'
+          text: 'Electricity billing mechanism which allows the customer to generate their own electricity from theri own solar rooftop.'
         },
         {
           id:5,
@@ -66,7 +66,7 @@ export default {
           id:6,
           name: 'MSEB Work',
           icon:  `https://res.cloudinary.com/db3h7h0pa/image/upload/v1608574792/ShreeAssociatesSolar/Services/MSEB.svg`,
-          text: 'The government partner though which the customer can avail the benefit of solar rooftop.'
+          text: 'The government partner through which the customer can avail the benefit of solar rooftop.'
         },
         {
           id:7,

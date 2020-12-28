@@ -73,7 +73,7 @@ export default {
           name1: 'Solar',
           name2: 'ON Grid System',
           icon:  `https://res.cloudinary.com/db3h7h0pa/image/upload/v1605591447/ShreeAssociatesSolar/Products/Solar_On_Grid.svg`,
-          text: 'An on-grid solar system is a grid connected solar PV System which works along with the grid. The on-grid solar system also known as grid tie or connected solar system. This is the most cost effective type for solar system compare to off grid and hybrid solar system for electricity saving or reduce bill. '
+          text: 'An on-grid solar system also known as grid tie is a solar PV System which works along with the grid.  This is the most cost effective implementation when compared against off grid and hybrid solar system for electricity saving or reduce bill. '
         },
         {
           id:4,
@@ -94,14 +94,14 @@ export default {
           name1: 'Solar',
           name2: 'Fence',
           icon:  `https://res.cloudinary.com/db3h7h0pa/image/upload/v1605591447/ShreeAssociatesSolar/Products/solar_fence.svg`,
-          text: 'The Solar Fencing System is similar to regular electric fence and works on Solar Energy with the backup facility to run uninterruptedly during the nights as well as cloudy days.'
+          text: 'The Solar Fencing System is similar to a regular electric fence and works on Solar Energy with a backup facility to run uninterruptedly during nights as well as cloudy days.'
         },
         {
           id:7,
           name1: 'ACDB/',
           name2: 'DCDB',
           icon:  `https://res.cloudinary.com/db3h7h0pa/image/upload/v1605591447/ShreeAssociatesSolar/Products/ACDB.svg`,
-          text: 'The ACDB (Alternative Current Distribution Box) receives the AC power from the solar inverter and directs it to AC loads through the distribution board. DCDB controls the DC power from solar panel and with having necessary surge protection device (SPD) and fuses. DCDB protect the solar panel, solar inverter and solar battery from any type of damage in solar system.'
+          text: 'The ACDB (Alternative Current Distribution Box) receives the AC power from the solar inverter and directs it to AC loads through the distribution board. DCDB controls the DC power from solar panel and has necessary surge protection device (SPD) and fuses. DCDB protects the solar panel, solar inverter and solar battery from any type of damage in a solar system.'
         },
         {
           id:8,

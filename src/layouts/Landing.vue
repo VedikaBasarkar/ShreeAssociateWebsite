@@ -144,7 +144,7 @@ export default {
             });
         },
          result() {
-           this.calculated = (parseInt(this.units) / 30) / 4; 
+           this.calculated = parseFloat((parseInt(this.units) / 30) / 4).toFixed(2); 
         },
     }
 }
