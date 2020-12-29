@@ -124,6 +124,7 @@ export default {
                 //     text: `👏 Thank you for contacting! Our representative will call you on the provided number.`
                 // })
               this.result();
+              this.clearFields();
              })
              .catch(err => {
                  this.loading = false
@@ -138,7 +139,7 @@ export default {
              })
         },
         clearFields(){
-            this.address = this.email = this.contact = this.units = null
+            this.units = null
             this.$nextTick(() => {
             this.$refs.form.reset();
             });
