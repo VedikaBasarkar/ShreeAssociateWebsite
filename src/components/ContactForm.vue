@@ -10,7 +10,7 @@
                     <div class="px-5 mt-2">
                         <ValidationProvider rules="required" v-slot="{ errors }">
                         <input
-                        class="block w-full textarea text-sm text-orange-500"
+                        class="block w-full textarea text-sm"
                         type="text"
                         name="name"
                         placeholder="Enter your name"
@@ -22,7 +22,7 @@
                     <div class="px-5 mt-2">
                         <ValidationProvider rules="required|email" v-slot="{ errors }">
                         <input
-                        class="block w-full textarea text-sm text-orange-500"
+                        class="block w-full textarea text-sm"
                         type="text"
                         name="email"
                         placeholder="Enter your email"
@@ -34,7 +34,7 @@
                     <div class="px-5 mt-2">
                         <ValidationProvider rules="required|digits:10" v-slot="{ errors }">
                         <input
-                        class="block w-full textarea text-sm text-orange-500"
+                        class="block w-full textarea text-sm"
                         type="number"
                         name="contact"
                         placeholder="Enter your contact"
@@ -52,7 +52,7 @@
                             v-model="message" 
                             placeholder="Write your message"
                             cols="20" rows="6" 
-                            class="w-full textarea text-sm text-orange-500">
+                            class="w-full textarea text-sm">
                         </textarea>
                         <span class="text-red-500 font-base text-xs mt-4">{{ errors[0] }}</span>
                         </ValidationProvider>

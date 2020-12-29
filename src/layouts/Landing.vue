@@ -14,7 +14,7 @@
             <div class="md:px-20 mt-5">
                 <ValidationProvider rules="required" v-slot="{ errors }">
                   <input
-                  class="block w-full textarea text-sm text-orange-500"
+                  class="block w-full textarea text-sm"
                   type="text"
                   name="email"
                   placeholder="Enter your email"
@@ -27,7 +27,7 @@
             <div class="md:px-20 mt-2">
                 <ValidationProvider rules="required" v-slot="{ errors }">
                   <input
-                  class="block w-full textarea text-sm text-orange-500"
+                  class="block w-full textarea text-sm"
                   type="number"
                   name="contact"
                   placeholder="Enter your contact"
@@ -40,7 +40,7 @@
             <div class="md:px-20 mt-2">
                 <ValidationProvider rules="required" v-slot="{ errors }">
                   <input
-                  class="block w-full textarea text-sm text-orange-500"
+                  class="block w-full textarea text-sm"
                   type="text"
                   name="address"
                   placeholder="Enter postal address"
@@ -54,7 +54,7 @@
               <div class="md:pl-20 mt-2 md:w-1/2">
                 <ValidationProvider rules="required" v-slot="{ errors }">
                   <input
-                  class="block w-full textarea text-sm text-orange-500"
+                  class="block w-full textarea text-sm"
                   type="number"
                   name="units"
                   placeholder="Enter Units Consumed"
