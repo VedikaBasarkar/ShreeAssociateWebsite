@@ -7,21 +7,21 @@
           <div class="flex flex-wrap md:justify-between">
             <div class="w-full md:w-1/3 p-4">
               <div class="shadow-lg rounded p-4 flex flex-col justify-center">
-                <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608572387/ShreeAssociatesSolar/Contact/email.svg"/>
+                <g-image class="h-24" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608572387/ShreeAssociatesSolar/Contact/email.svg"/>
                 <div class="text-center text-2xl font-bold mt-5 mb-2">Email</div>
                 <div class="text-center mb-8">shreeassociatessolar@gmail.com</div>
               </div>
             </div>
             <div class="w-full md:w-1/3 p-4">
               <div class="shadow-lg rounded p-4 flex flex-col justify-center">
-                <g-image class="" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608572387/ShreeAssociatesSolar/Contact/location.svg"/>
+                <g-image class="h-24" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608572387/ShreeAssociatesSolar/Contact/location.svg"/>
                 <div class="text-center text-2xl font-bold mt-5 mb-2">Location</div>
                 <p class="text-center text-sm mb-4">Shop no - 4, Nishigandha, Rana Nagar, Aurangabad, Maharashtra - 431003</p>
               </div>
             </div>
             <div class="w-full md:w-1/3 p-4">
               <div class="shadow-lg rounded p-4 flex flex-col justify-center">
-                <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608572387/ShreeAssociatesSolar/Contact/contact.svg"/>
+                <g-image class="h-24" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608572387/ShreeAssociatesSolar/Contact/contact.svg"/>
                 <div class="text-center text-2xl font-bold mt-5 mb-2">Contact</div>
                 <p class="text-center mb-8">8975707571  and  9420234355</p>
               </div>
