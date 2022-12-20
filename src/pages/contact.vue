@@ -23,7 +23,7 @@
               <div class="shadow-lg rounded p-4 flex flex-col justify-center">
                 <g-image class="h-24" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608572387/ShreeAssociatesSolar/Contact/contact.svg"/>
                 <div class="text-center text-2xl font-bold mt-5 mb-2">Contact</div>
-                <p class="text-center mb-8">8975707571  and  9420234355</p>
+                <p class="text-center mb-8">9284818458  and  9420235355</p>
               </div>
             </div>
 
