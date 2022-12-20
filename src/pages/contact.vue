@@ -16,7 +16,7 @@
               <div class="shadow-lg rounded p-4 flex flex-col justify-center">
                 <g-image class="h-24" src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608572387/ShreeAssociatesSolar/Contact/location.svg"/>
                 <div class="text-center text-2xl font-bold mt-5 mb-2">Location</div>
-                <p class="text-center text-sm mb-4">Shop no - 4, Nishigandha, Rana Nagar, Aurangabad, Maharashtra - 431003</p>
+                <p class="text-center text-sm mb-4">Plot no. 7, Flat no. 4&5, Shri Pratap Complex, N-2 CIDCO, Aurangabad</p>
               </div>
             </div>
             <div class="w-full md:w-1/3 p-4">
