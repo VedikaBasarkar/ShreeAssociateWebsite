@@ -4,7 +4,7 @@
         <div class="mx-5 mt-10 md:mt-20 md:mx-56">
           <h1 class="text-black text-center text-4xl font-bold font-poppins">About <span class="text-primary">Us</span></h1>
           <br>
-          <p class="text-center font-poppins">Started by two childhood friends, who are Mechanical Engineers, with the clear intentions to contribute to nature with working and increasing sustainable solutions. 
+          <p class="text-center font-poppins"A Mechanical Engineers, with the clear intentions to contribute to nature with working and increasing sustainable solutions. 
             We at Shree Associates aim to reduce and cut the dependence of humans on conventional energy resources for power and energy generation. The use of renewable energy resources 
             such as solar energy, which is available in plenty in nature can become the best substitute for power generation. We focus on all the sustainable solutions we can provide by 
             all possible means. Be it solar, wind or any other renewable energy source, Shree Associates is the one stop solution for all the problems related to renewable energy sources. 
@@ -12,13 +12,6 @@
             solutions in the areas namely Industrial, Commercial, Residential, Farms, Hospitals. We make sure that the services we provide are transparent in nature and always deliver keeping
             customer satisfaction in mind.</p>
             <div class="md:flex justify-center my-20">
-              <div class="my-12">
-                <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608536416/ShreeAssociatesSolar/About/soham_kulkarni.jpg" />
-                <div class="mx-6 md:mx-8">
-                  <div class="md:text-right"><h1 class="text-primary text-2xl font-bold font-poppins">Soham <span class="text-black">Kulkarni</span></h1></div>
-                  <div class="md:text-right text-gray-600 font-poppins">Managing Partner</div>
-                </div>
-              </div>
               <div>
                 <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608536416/ShreeAssociatesSolar/About/raj_kapadia.jpg" />
                 <div class="mx-6">
