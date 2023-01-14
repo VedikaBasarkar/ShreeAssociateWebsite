@@ -14,10 +14,10 @@
             <div class="md:flex justify-center my-20">
               <div>
                 <g-image src="https://res.cloudinary.com/db3h7h0pa/image/upload/v1608536416/ShreeAssociatesSolar/About/raj_kapadia.jpg" />
-                <div class="mx-6 flex flex-col justify-center content-center">
-                  <div><h1 class="text-primary text-2xl font-bold font-poppins">Raj <span class="text-black">Kapadia</span></h1></div>
-                  <div class="text-gray-600 font-poppins">Founder</div>
-                </div>
+
+                <div><h1 class="text-primary text-2xl font-bold font-poppins">Raj <span class="text-black">Kapadia</span></h1></div>
+                <div class="text-gray-600 font-poppins">Founder</div>
+
               </div>
             </div>
         </div>
